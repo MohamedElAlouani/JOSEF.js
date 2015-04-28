@@ -8,24 +8,24 @@ The files are writen in JSON, and the coding is simple. (todo: more about file s
 ### .oce file example
 ```
 {
-	name:"Title",
-	company:"Company",
-	ref:"Exam reference number",	
-	dump:"Brain dump name",
-	author:"Author name",
-	date:"Rlease date",
-	note:"Any other comments or notes",
-	number:Number Questions
-	link:"Download link, open repository"
-	total: Maximum score
-	success: Required score to success
-	questions:[
+	"name":"Title",
+	"company":"Company",
+	"ref":"Exam reference number",	
+	"dump":"Brain dump name",
+	"author":"Author name",
+	"date":"Rlease date",
+	"note":"Any other comments or notes",
+	"number":Number Questions,
+	"link":"Download link, open repository",
+	"total": Maximum score,
+	"success": Required score to success,
+	"questions":[
 		{
-			question:"Test Question",
-			answers:["Answer1","Answer2","Answer3","Answer4"],
-			correct: Array of correct answers,
-			type:The type of the answer : radio, check or drag,
-			category:"The section"
+			"question":"Test Question",
+			"answer":["Answer1","Answer2","Answer3","Answer4"],
+			"correct": Array of correct answers,
+			"type":The type of the answer : radio, check or drag,
+			"category":"The section"
 		}
 	]
 }
