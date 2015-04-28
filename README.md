@@ -1,9 +1,9 @@
-# Javascript OpenSimulatedExam (JOSE)
-OpenSimulatedExam is a free open source sofware, it's an alternative to VCE Exam Simulator. the software is a test engine designed specifically for certification exam preparation. It allows you to create, edit, and take practice tests in an environment very similar to an actual exam.
+# JavascriptOpenSimulatedExam (JOSEF.js)
+Javascript Open Simulated Exam is a free open source application. It's an alternative to VCE Exam Simulator. This software is a test engine designed specifically for certification exam preparation. It allows you to create, edit, and take practice tests in an environment very similar to an actual exam.
 It's using html5 and css3 and It runs on all platformes Windows, Mac, Linux, Android and IOS.
 
 # jose Files (.josf files)
-OpenExamSimulator is using .josf  files (.josf stands for Javascript Open Simulated File). 
+JOSEF.js is using .josf files (.josf stands for Javascript Open Simulated File). 
 The files are writen in JSON, and the structure is clear and simple.
 
 
@@ -33,7 +33,7 @@ The files are writen in JSON, and the structure is clear and simple.
 }
 ```
 
-# josfPlayer
+# josefPlayer
 
 ### HTML 
 ```
@@ -59,7 +59,7 @@ The files are writen in JSON, and the structure is clear and simple.
   </script>
 ```
 
-# josfDesigner
+# josefDesigner
 ### Todo ...
 
 
