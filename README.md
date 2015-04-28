@@ -5,7 +5,7 @@ OpenExamSimulator is an open source sofware inspired by VCE Exam Simulator. It i
 OpenExamSimulator is using .oce files (.oce stands for open certification exam). 
 The files are writen in JSON, and the coding is simple. (todo: more about file structure)
 
-### file format example
+### .oce file example
 ```
 {
 	name:"Title",
