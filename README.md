@@ -1,5 +1,6 @@
 # OpenExamSimulator
-OpenExamSimulator is an open source sofware inspired by VCE Exam Simulator. It is a test engine designed specifically for certification exam preparation. It allows you to create, edit, and take practice tests in an environment very similar to an actual exam.
+OpenExamSimulator is a free open source sofware, it's an alternative to VCE Exam Simulator. the software is a test engine designed specifically for certification exam preparation. It allows you to create, edit, and take practice tests in an environment very similar to an actual exam.
+It's using html5 and css3 and It runs on all platformes Windows, Mac, Linux, Android and IOS.
 
 
 # Web version
