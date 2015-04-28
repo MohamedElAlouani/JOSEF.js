@@ -1,40 +1,13 @@
-# OpenExamSimulator
-OpenExamSimulator is a free open source sofware, it's an alternative to VCE Exam Simulator. the software is a test engine designed specifically for certification exam preparation. It allows you to create, edit, and take practice tests in an environment very similar to an actual exam.
+# Javascript OpenSimulatedExam (JOSE)
+OpenSimulatedExam is a free open source sofware, it's an alternative to VCE Exam Simulator. the software is a test engine designed specifically for certification exam preparation. It allows you to create, edit, and take practice tests in an environment very similar to an actual exam.
 It's using html5 and css3 and It runs on all platformes Windows, Mac, Linux, Android and IOS.
 
-
-# Web version
-
-### HTML 
-```
-<!doctype html>
-<html>
-<head>
-  <script src="jquery.min.js"></script>
-  <script src="OpenExamSimulator.js"></script>
-</head>
-<body>
-  <div id="body"></div>
-</body>
-</html>
-```
-
-### javascript 
-```
-  <script>
-	var oes=new OpenExamSimulator();
-  	$.get( "exam1.oce", function( data ) {		  
-		  oes.load("body",data);
-	});
-  </script>
-```
+# jose Files (.josf files)
+OpenExamSimulator is using .josf  files (.josf stands for Javascript Open Simulated File). 
+The files are writen in JSON, and the structure is clear and simple.
 
 
-# .oce files
-OpenExamSimulator is using .oce files (.oce stands for open certification exam). 
-The files are writen in JSON, and the coding is simple. (todo: more about file structure)
-
-### .oce file example
+### .josf file example
 ```
 {
 	"name":"Title",
@@ -59,6 +32,35 @@ The files are writen in JSON, and the coding is simple. (todo: more about file s
 	]
 }
 ```
+
+# josfPlayer
+
+### HTML 
+```
+<!doctype html>
+<html>
+<head>
+  <script src="jquery.min.js"></script>
+  <script src="josfPlayer.js"></script>
+</head>
+<body>
+  <div id="body"></div>
+</body>
+</html>
+```
+
+### javascript 
+```
+  <script>
+	var oes=new OpenExamSimulator();
+  	$.get( "Exam1.josf", function( data ) {		  
+		  oes.load("body",data);
+	});
+  </script>
+```
+
+# josfDesigner
+### Todo ...
 
 
 
